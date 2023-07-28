@@ -1,8 +1,8 @@
-# [Casper Grant Delivery]
+# Casper Grant Delivery
 
 ***
 # DONE:
-## Milestone 1 - Extend the concept of the IMU NFT component and demo
+## Milestone 1 - Extend the concept of the IMU NFT component and run the demo (Casper mainnet)
 
 1. [Concept of the IMU NFT component]
 2. [Turn on Casper blockchain support]
@@ -10,7 +10,7 @@
 4. [Demo session on the mainnet with the fiat payments mode]
 
 ***
-## Milestone 2 - IMU NFT-C and pilot for brands on the mainnet
+## Milestone 2 - IMU NFT-C and pilot for brands on the Casper mainnet
 
 
 1. [Extend the concept of the IMU NFT to have an option of "claim" instad of "payment"]
@@ -36,8 +36,9 @@ https://prochainarret.masterminds.online/articles/neom
 ***
 
 ## NOTICE
-1. Right now, IMU-NFT component works with the CEP47 standard of the Casper blockchain. The folder `nft-cep47` contains code that was used to mint NFTs. It is based on the cep47 standard. 
-Current nft smart contract has "auto-incrementted" ids and supports "upgrade" mode.
-2. There is no full code of the imu nft component! The folder `imu-nft-ui` contains only snippets of the code related to the casper-wallet integration.
+1. Right now, IMU-NFT component works with the CEP47 NFT standard of the Casper blockchain. The folder `nft-cep47` contains the code of the smartcontract that was used to mint NFTs. 
+It is based on the CEP47 NFT standard of the Casper ecosystem. The certain version of the nft smart contract has "auto-incrementted" nft ids and supports "upgrade" mode as well.
+2. There is no full code of the imu nft component! Imu nft component is a generic component to deliver nfs from various blockchains and process the user action. 
+The folder `imu-nft-ui` contains ONLY some files related to the casper-wallet integration and related logic.
 3. The folder `screens` contains some screens of the IMU NFT-C compoment.
 
